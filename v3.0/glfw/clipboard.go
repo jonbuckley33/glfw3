@@ -1,5 +1,7 @@
 package glfw
 
+//#cgo CFLAGS: -I/usr/local/include
+//#cgo LDFLAGS: -L/usr/local/lib
 //#include <stdlib.h>
 //#include <GLFW/glfw3.h>
 import "C"
